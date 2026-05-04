@@ -4,7 +4,7 @@ from PIL import Image
 import datetime
 
 
-client=InferenceClient(token=os.genenv(HF_TO_KEN"))
+client=InferenceClient(token=os.genenv(HF_TOKEN"))
 MODEL="stabilityai/stable-diffusion-xl-base-1.0"
 st.set_page_config(page_title="AI Image Generator", page_icon="🖼️")
 st.title("AI IMage Generator")
